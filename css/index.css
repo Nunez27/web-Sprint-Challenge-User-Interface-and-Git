@@ -248,6 +248,7 @@ header {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 4%;
+    margin: 0% 0% 0% 0%;
 }
 
 .images {
@@ -277,6 +278,7 @@ header nav a {
     display: flex;
     justify-content: space-around;
     text-decoration: none;
+    color: black;
 
 }
 
