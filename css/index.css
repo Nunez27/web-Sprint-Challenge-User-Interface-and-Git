@@ -57,6 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
+    margin: 2% 0% 0% 0%;
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,7 +67,22 @@ p {
     line-height: 1.4;
 }
 
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    /* image-rendering: pixelated; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 800px;
     margin: 0 auto;
 }
@@ -86,17 +102,21 @@ p {
 }
 
 .middle-content {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
+    display: flex;
     padding: 0 2%;
     margin-bottom: 0;
 }
 
 .middle-content .boxes {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -104,7 +124,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -124,9 +144,165 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+} 
+
+.bg-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 60%;
+    height: 250px;
 }
 
+.lambda-logo {
+    display: flex;
+}
+
+.header-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 2%;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+.container .about-page {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.top-section {
+    text-align: center;
+    line-height: 5%;
+    border-bottom: 3px dotted black;
+    margin-bottom: 2%;
+}
+
+.boxOne{
+    margin-top: 2%;
+    border-bottom: 2px dotted black;
+}
+
+.boxTwo {
+    margin-top: 3%;
+    border-bottom: 2px dotted black;
+}
+
+.boxThree {
+    border-bottom: 2px dotted black;
+}
+
+.boxFour {
+    border-bottom: 2px dotted black;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin: 0% 0% 0% 0%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.main-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.top-left {
+    justify-content: space-between;
+}
+
+.card {
+    margin: 2%;
+    border-bottom: 3px dotted black;
+}
+
+header nav a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0% 0% 0% 0%;
+    text-decoration: none;
+}
+
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+} */
+
 footer {
+    display: flex;
+    align-content: center;
     width: 100%;
     background: black;
 }
@@ -143,4 +319,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a {
+    margin-right: 17px;
+    justify-content: space-between;
 }
