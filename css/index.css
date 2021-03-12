@@ -119,6 +119,8 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 231%;
+    margin: 0% -32% -1% -22%;
 }
 
 .middle-content .boxes .box {
@@ -158,6 +160,7 @@ header {
 
 .lambda-logo {
     display: flex;
+    margin: 0% -1% -2% -11%;
 }
 
 .header-img {
@@ -165,7 +168,7 @@ header {
     align-content: center;
     justify-content: center;
     max-width: 100%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .box1 {
@@ -289,7 +292,7 @@ header nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0% 0% 0% 0%;
+    margin: 2% -15% -2% -29%;
     text-decoration: none;
 }
 
@@ -302,6 +305,7 @@ header nav{
 
 footer {
     display: flex;
+    justify-content: center;
     align-content: center;
     width: 100%;
     background: black;
@@ -322,6 +326,6 @@ footer nav a {
 }
 
 a {
-    margin-right: 17px;
+    margin-right: 84px;
     justify-content: space-between;
 }
